@@ -25,7 +25,7 @@ type Message =
 
 let init() = { Students = [] }, Cmd.none
 
-let update appctx msg model =
+let update (appctx: AppContext) msg model =
     match msg with
 
     | FetchStudents ->
