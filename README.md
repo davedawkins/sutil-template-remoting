@@ -3,12 +3,13 @@
 ## Start the server:
 
 ```
-(cd ../Server; dotnet run)
+(cd Server; dotnet run)
 ```
 
 ## Build Client
 
 ```
+cd Client
 npm install
 ```
 
